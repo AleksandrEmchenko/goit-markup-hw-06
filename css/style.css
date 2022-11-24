@@ -832,6 +832,14 @@ img{
     margin-bottom: 10px;
 }
 
+.area{
+    margin-bottom: 20px;
+}
+
+.licence{
+    margin-bottom: 30px;
+}
+
 .form-label{
     display: inline-block;
     text-align: left;
@@ -870,7 +878,7 @@ img{
 .form-textarea{
     width: 100%;
     padding: 14px 16px;
-    margin-bottom: 20px;
+    
     border-radius: 4px;
 
     transition-property: border-color;
@@ -896,6 +904,7 @@ img{
     display: block;
     margin: 0 auto;
     margin-bottom: 30px;
+    cursor: pointer;
 }
 
 .form-checkbox{
