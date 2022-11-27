@@ -939,6 +939,12 @@ img{
     vertical-align: middle;
 }
 
+.form-checkbox:focus + .checkbox-label::before{
+    border: 3px solid var(--title-color);
+}
+
+
+
 .form-checkbox:checked + .checkbox-label::before{
     background-color: var(--accent-color);
     border-color: var(--accent-color);
